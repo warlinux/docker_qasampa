@@ -12,10 +12,15 @@ services:
       - /dev/shm:/dev/shm
     shm_size: 2g
   cucumber:
+    build: 
+      context: .
+      dockerfile: Dockerfile
     image: warlinux/apptest:0.0.1
-    command: cucumber --format pretty --format html --out=results/report.html
     volumes:
       - .:/apptest
     environment:
       CHROME_HOSTNAME: selenium
+    command: cucumber --format pretty --format html --out=results/report.html
+    depends_on:
+      - selenium
 
