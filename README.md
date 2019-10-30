@@ -1,4 +1,4 @@
-# #dojo_frontend QA Sampa Meeting - 02/11/2019
+# #docker QA Sampa Meeting - 02/11/2019
 
 Repositório utilizado no  QA Sampa Meeting dia 02/11/2019
 
@@ -12,10 +12,9 @@ Repositório utilizado no  QA Sampa Meeting dia 02/11/2019
 
 ### INSTALAÇÃO
 
-Pré-requisitos:
-
-
 Passo a passo da instalação
+
+
 
 
 ### BAIXAR O PROJETO NO GITHUB
